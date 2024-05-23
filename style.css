@@ -46,6 +46,12 @@ h6 {
   font-weight: 500;
 }
 
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .banner a {
   all: unset;
   border: 1px solid #afaeae55;
@@ -54,7 +60,16 @@ h6 {
   background-image: linear-gradient(to bottom, #eee1, transparent, #eee1);
   cursor: pointer;
   transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
 }
+
+.banner a .icon {
+  margin-right: 4px;
+}
+
 .banner a:hover {
   background-color: #c691e6;
   color: #040018;
